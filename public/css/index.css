@@ -1,0 +1,142 @@
+/* Global CSS Document */
+
+body, button, select, textarea, input, label, option, fieldset, legend{font-family: 微软雅黑E\8F6F\96C5\9ED1,Tahoma,Verdana;font-size: 12px;line-height: 18px;color: #444;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, button, p, blockquote, th, td{margin: 0;padding: 0;}
+textarea{resize: none}
+.clear{height:1px;overflow:hidden;clear:both;}
+a,img{border:0;}
+a{color: #666;text-decoration: none;}
+li{list-style-type:none;}
+.fl{float:left;}
+.fr{float:right;}
+.nf{clear:both;}
+.red{color:red;font-weight:bold;}
+.green{color:#00b500;font-weight:bold;}
+.ds{display:block;}
+.hid{overflow:hidden;}
+.clearfix{*zoom:1}
+.clearfix:after{display:block;visibility:hidden;clear:both;height:0;content:'.';font-size:0}
+
+/* font */
+@font-face {
+  font-family: 'Din-light';
+  src: url('fonts/DINCond-LightAlternate.otf'); /* IE9 Compat Modes */
+  font-weight: 300;
+  font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'Din';
+   src: url('fonts/DINCond-Black.otf'); /* IE9 Compat Modes */
+   font-style: normal;
+  }
+
+ body{
+  font-family: 'Din';
+ }
+
+.header-nav {
+  border-bottom: 1px solid rgba(116,91,82,0.16);
+  box-shadow: 0px 2px 6px 0px rgba(116,91,82,0.16);
+}
+/* custom css */
+.nav {
+  max-width: 960px;
+  margin:0 auto;
+}
+.nav > span {
+  font-size: 32px;
+  display: inline-block;
+  line-height: 32px;
+  margin-top: 24px;
+  margin-left:8px;
+}
+.nav > p,.logo {
+  float: left;
+  display: block;
+}
+.nav > p {
+  float:right;
+  text-align: right;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top:24px;
+}
+.nav > p > a {
+  margin-right: 24px;
+}
+
+.logo {
+  width:48px;
+  margin:8px;
+}
+.header{
+  margin-top:16px;
+}
+
+.derrick-info{
+  max-width: 800px;
+}
+.header > h1 {
+  font-weight: bolder;
+  font-size: 64px;
+  color:#1488C6;
+  display: block;
+  margin: 0px auto;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.header > p {
+  margin-top: 32px;
+  font-size: 32px;
+  font-weight: 300px;
+  color:#1488C6;
+  text-align: center;
+  font-family: Din;
+}
+
+.button {
+  font-family: Din-light;
+  display: inline-block;
+  margin-top:32px;
+  height: 40px;
+  line-height: 38px;
+  padding: 0 30px;
+  background: #1488C6;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  border: 1px solid #1488C6;
+  text-decoration: none;
+}
+
+.derrick-info-wrapper{
+  max-width: 800px;
+  margin:0px auto;
+  position: relative;
+}
+.derrick-info-hook {
+  position: inherit;
+}
+.derrick-hook-part_3{
+  position: absolute;
+  left:304px;
+  top:120px;
+  width:36px;
+}
+.derrick-hook-part_4 {
+  position: absolute;
+  left:300px;
+  top:244px;
+  width:40px;
+}
+.derrick-hook-part_5 {
+  position: absolute;
+  left:300px;
+  top:255px;
+  width:40px;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "magic",
+  "version": "1.1.0",
+  "description": "CSS3 Animations with special effects",
+  "keywords": [
+    "css",
+    "css3",
+    "magic",
+    "animations"
+  ],
+  "main": [
+    "magic.min.css"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/miniMAC/magic",
+  "_release": "1.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.0",
+    "commit": "33e7ae0392be28c5afc1248987a7ebf2216ebea2"
+  },
+  "_source": "https://github.com/miniMAC/magic.git",
+  "_target": "^1.1.0",
+  "_originalSource": "magic",
+  "_direct": true
+}
