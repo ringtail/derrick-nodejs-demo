@@ -12,7 +12,7 @@ npm start
 
 ```
 derrick init
-derrick build
+derrick up
 ```
 
 ### Have fun
